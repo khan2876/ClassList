@@ -7,8 +7,8 @@ public class ClassList {
         String input = "";
          
         // TODO: initialize classList
-        ArrayList<String> list = new ArrayList();
-
+        
+        
         System.out.println("Q to Quit, A to Add a name, R to remove, I to insert");
 
         while( !input.equals("Q") ) {
@@ -18,8 +18,7 @@ public class ClassList {
             if(input.equals("A")) {
                 // TODO: Add a name to the end of the list.
                 System.out.print("Enter a name to add: ");
-                String name = keyboard.next();
-                list.add(name);
+                
             } else if(input.equals("R")) {
                 // TODO: Remove an item from the list.  
                 // Ask for the index of the item to be removed.  Use nextInt()
@@ -27,6 +26,7 @@ public class ClassList {
             } else if(input.equals("I")) {
                 // TODO: Insert an item into the list at a specific location.
                 // Ask for the location to add to, and the name to be added.
+                
             } else  {
                 System.out.println("Invalid Selection.");
             }
