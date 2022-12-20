@@ -9,10 +9,10 @@ public class ClassList {
         // TODO: initialize classList
         
         
-        System.out.println("Q to Quit, A to Add a name, R to remove, I to insert");
+        System.out.println("Q to Quit, A to Add a name, R to remove, I to insert\n");
 
         while( !input.equals("Q") ) {
-            System.out.println("Enter your selection: ");
+            System.out.print("Enter your selection: ");
             input = keyboard.next();
 
             if(input.equals("A")) {
